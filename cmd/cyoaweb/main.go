@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*Exercise #3: Choose your own adventure
 exercise status: released demo: ->
 
@@ -55,5 +57,5 @@ Create a command-line version of our Choose Your Own Adventure application where
 Consider how you would alter your program in order to support stories starting form a story-defined arc. That is, what if all stories didn't start on an arc named intro? How would you redesign your program or restructure the JSON? This bonus exercises is meant to be as much of a thought exercise as an actual coding one. */
 
 func main() {
-
+	fmt.Println("Choose your own adventure :)")
 }
