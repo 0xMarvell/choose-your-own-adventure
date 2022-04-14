@@ -3,13 +3,11 @@ package cyoa
 import (
 	"encoding/json"
 	"io"
-
-	cyoa "github.com/Marvellous-Chimaraoke/choose-your-own-adventure"
 )
 
 func JsonStory(r io.Reader) (Story, error) {
 	d := json.NewDecoder(r)
-	var story cyoa.Story
+	var story Story
 	if err := d.Decode(&story); err != nil {
 		return nil, err
 	}
