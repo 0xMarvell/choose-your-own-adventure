@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	cyoa "github.com/Marvellous-Chimaraoke/choose-your-own-adventure"
+	cyoa "github.com/0xMarvell/choose-your-own-adventure"
 )
 
 func main() {
